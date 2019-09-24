@@ -5,26 +5,42 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
   opacity: 1;
+  // transition: 1s;
+}
+
+.hide-overlay {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  transition: opacity 0.5s ease 0s;
+  opacity: 0;
 }
 .menu-wrapper {
   position: fixed;
   right: inherit;
   z-index: 1100;
-  width: 300px;
+  width: 100%;
   height: 100%;
-  .menu {
+  display: flex;
+  justify-content: center;
+  .hide-menu {
     height: 70%;
+    width: 50vw;
     background: #29a5b3;
     z-index: 1200;
     padding: 0 1.5em 0;
     font-size: 1.15em;
     position: absolute;
-    border-radius: 0 15px 15px 0;
+    border-radius: 15px;
     margin: 0;
     top: 10vw;
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20);
+    transition: all 0.5s ease 0s;
+    transform: translate3d(-150%, 0px, 0px);
     .close-btn {
       height: 40px;
       width: 40px;
@@ -34,7 +50,7 @@
       position: absolute;
       border: 2px solid #b2b2b2;
       z-index: 1300;
-      right: -10%;
+      right: -2%;
       top: -2%;
       button {
         background: transparent;
@@ -56,6 +72,61 @@
       display: flex;
       flex-direction: column;
       justify-content: space-around;
+      align-items: center;
+      .menu-item {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .menu {
+    height: 70%;
+    width: 50vw;
+    background: #29a5b3;
+    z-index: 1200;
+    padding: 0 1.5em 0;
+    font-size: 1.15em;
+    position: absolute;
+    border-radius: 15px;
+    margin: 0;
+    top: 10vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20);
+    .close-btn {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      background: blueviolet;
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      position: absolute;
+      border: 2px solid #b2b2b2;
+      z-index: 1300;
+      right: -2%;
+      top: -2%;
+      button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin: auto;
+        button:focus {
+          outline: none;
+        }
+      }
+    }
+    .menu-list {
+      height: 100%;
+      color: #b8b7ad;
+      padding: 0.8em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
       .menu-item {
         display: inline-block;
         color: white;

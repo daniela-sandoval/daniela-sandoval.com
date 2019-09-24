@@ -18,7 +18,7 @@ class App extends React.Component {
     return (
       <div className="portfolio">
         <Burger toggleNav={this.toggleNav}/>
-        {this.state.navbar ? <Navbar toggleNav={this.toggleNav}/> : null}
+        {this.state.navbar ? <Navbar toggleNav={this.toggleNav} status={this.state.navbar} /> : null}
         <Switch>
           <Route path="/about" component={ About }/>
         </Switch>
