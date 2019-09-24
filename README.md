@@ -1,6 +1,6 @@
 ## Daniela's Portfolio
 
-🚧Under construction!🚧
+🚧 Under construction! 🚧
 
 ### Daniela's To-Dos:
 * ⏹ Possibly make logo/svg???
