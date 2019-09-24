@@ -1,0 +1,26 @@
+.burger {
+  position: fixed;
+  width: 40px;
+  height: 36px;
+  left: 36px;
+  top: 36px;
+  cursor: pointer;
+  .part1, .part2, .part3 {
+    background-color: #EF8354;
+    border-radius: 10px;
+    position: absolute;
+    height: 20%;
+    left: 0px;
+    right: 0px;
+    opacity: 1;
+  }
+  .part1 {
+    top: 0%;
+  }
+  .part2 {
+    top: 40%;
+  }
+  .part3 {
+    top: 80%;
+  }
+}

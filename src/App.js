@@ -7,7 +7,6 @@ class App extends React.Component {
   render () {
     return (
       <div className="portfolio">
-        itsa me, daniela
         <Navbar/>
         <Switch>
           <Route path="/about" component={ About }/>
