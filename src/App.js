@@ -6,19 +6,10 @@ import About from './components/about'
 import './Stylesheets/app.scss'
 
 class App extends React.Component {
-  state = {
-    navbar: false
-  }
-
-  toggleNav = () => {
-    this.setState({navbar: !this.state.navbar})
-  }
-
   render () {
     return (
       <div className="portfolio">
-        <Burger toggleNav={this.toggleNav}/>
-        {this.state.navbar ? <Navbar toggleNav={this.toggleNav}/> : null}
+        <Navbar/>
         <Switch>
           <Route path="/about" component={ About }/>
         </Switch>
