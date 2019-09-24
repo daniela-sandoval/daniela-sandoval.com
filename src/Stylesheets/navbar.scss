@@ -1,18 +1,96 @@
-.sidebar {
-  height: 100%;
-  width: 0;
+.overlay {
   position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-  display: flex;
-  flex-direction: column;
-  .nav-link {
-    text-decoration: none;
-    color: white;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+.menu-wrapper {
+  position: fixed;
+  right: inherit;
+  z-index: 1100;
+  width: 300px;
+  height: 100%;
+  .menu {
+    height: 70%;
+    background: #29a5b3;
+    z-index: 1200;
+    padding: 0 1.5em 0;
+    font-size: 1.15em;
+    position: absolute;
+    border-radius: 0 15px 15px 0;
+    margin: 0;
+    top: 10vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20);
+    .close-btn {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      background: blueviolet;
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      position: absolute;
+      border: 2px solid #b2b2b2;
+      z-index: 1300;
+      right: -10%;
+      top: -2%;
+      button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin: auto;
+        button:focus {
+          outline: none;
+        }
+      }
+    }
+    .menu-list {
+      height: 100%;
+      color: #b8b7ad;
+      padding: 0.8em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .menu-item {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+      }
+    }
   }
+}
+
+
+
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  // display: none;
+  height: 24px;
+  width: 24px;
 }
