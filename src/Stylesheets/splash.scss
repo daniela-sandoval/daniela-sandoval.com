@@ -1,0 +1,31 @@
+.splash-page {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .floaties {
+    display: flex;
+    justify-content: space-around;
+  }
+  .about-btn {
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    width: 12%;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    background-size: 200% auto;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 4px 8px 0 rgba(0,0,0,.2);
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    &:hover {
+      cursor: pointer;
+      background-position: right center;
+    }
+  }
+}

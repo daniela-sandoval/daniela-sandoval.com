@@ -1,8 +1,8 @@
 import React from 'react';
-import { Switch, Route, withRouter } from 'react-router-dom'
+import { Switch, Route} from 'react-router-dom'
 import Navbar from './components/navbar';
-import Burger from './components/burger'
 import About from './components/about'
+import Splash from './components/splash'
 import './Stylesheets/app.scss'
 
 class App extends React.Component {
@@ -12,6 +12,7 @@ class App extends React.Component {
         <Navbar/>
         <Switch>
           <Route path="/about" component={ About }/>
+          <Route path="/" component={ Splash }/>
         </Switch>
       </div>
     );
@@ -20,14 +21,6 @@ class App extends React.Component {
 }
 
 export default App;
-
-// <div onClick={this.toggleNav} className="hamburger">
-//   <div className="part1"></div>
-//   <div className="part2"></div>
-//   <div className="part3"></div>
-// </div>
-
-// document.querySelector(".sidebar").style.width = "250px";
 
 
 // <Route path="/projects" component={ Projects }/>
