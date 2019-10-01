@@ -3,7 +3,6 @@ import styled, { keyframes } from 'styled-components'
 import { ReactComponent as DanielaName } from '../img/name.svg'
 import { ReactComponent as FullStack } from '../img/full-stack.svg'
 import { ReactComponent as Pot } from '../img/pot-whole.svg'
-import { ReactComponent as Plant } from '../img/plant.svg'
 import { ReactComponent as Cat } from '../img/cat.svg'
 import { ReactComponent as Glasses } from '../img/glasses.svg'
 import { ReactComponent as Coffee } from '../img/coffee-cup.svg'
@@ -167,6 +166,7 @@ const StyledGlasses = styled(Glasses) `
   animation: ${icons} 1s ease forwards, ${float3} 3s ease-in-out infinite;
   animation-delay: 4s;
 `
+
 
 class Splash extends React.Component {
   render () {

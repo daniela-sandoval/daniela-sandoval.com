@@ -11,12 +11,12 @@
 .bm-burger-bars {
   background: #373a47;
   border-radius: 5px;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #a90000;
+  background: #a6c1ee;
 }
 
 
@@ -26,11 +26,16 @@
   width: 40px !important;
   right: 36px !important;
   top: 26px !important;
+  button {
+    &:focus {
+      outline: none;
+    }
+  }
 }
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: black;
   height: 45px !important;
   width: 5px !important;
   border-radius: 5px;
@@ -50,8 +55,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* General sidebar styles */
 .bm-menu {
   // background: #3d5ee169;
-  background: #647bd8e0;
+  // background: #647bd8e0;
   font-size: 1.15em;
+  background-size: 200% auto;
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -82,7 +89,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
     outline: none;
   }
   &:hover {
-    color: #ebaaff;
+    color: black;
   }
 }
 
