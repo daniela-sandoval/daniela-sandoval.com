@@ -1,10 +1,9 @@
 .bio-container {
-  // border: 2px solid red;
+  border: 2px solid red;
   display: flex;
   justify-content: center;
   flex-direction: row;
   padding: 20px;
-  margin: 10vw;
   .profile, .visual {
     margin: 10px;
   }
@@ -34,14 +33,14 @@
       .resume-btn {
         font-family: 'Comfortaa';
         font-weight: bold;
-        font-size: 10px;
+        font-size: 14px;
         color: white;
         text-align: center;
         transition: 0.5s;
         border-radius: 10px;
         letter-spacing: 5px;
         margin: 0 auto;
-        padding: 10px;
+        padding: 12px;
         border: none;
         -webkit-text-stroke: 0.2px;
         background-size: 200% auto;

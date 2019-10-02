@@ -51,7 +51,7 @@ class Bio extends Component {
           <div className="glasses">
             <StyledGlassesBio />
           </div>
-        </div>
+        </div> 
       </div>
     )
   }
