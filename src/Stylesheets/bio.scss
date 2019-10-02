@@ -1,5 +1,5 @@
 .bio-container {
-  border: 2px solid red;
+  // border: 2px solid red;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -9,20 +9,25 @@
     margin: 10px;
   }
   .profile {
-    border: 2px solid red;
+    // border: 2px solid red;
     padding: 15px;
-    width: 60%;
+    width: 55%;
     h4, h1 {
       font-family: 'Comfortaa';
     }
     h1 {
       margin-bottom: 0;
       letter-spacing: 2px;
+      font-size: 45px;
     }
     h4 {
       margin: 10px 0 0 0;
       font-size: 17px;
       color: #7a097a;
+    }
+    .sub-line {
+      margin-top: 5px;
+      font-size: 15px;
     }
     .profile-btns{
       text-align: center;
@@ -51,8 +56,29 @@
     }
   }
   .visual {
-    border: 2px solid red;
+    // border: 2px solid red;
     padding: 15px;
-    width: 30%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .image-wrapper {
+      border-radius: 50%;
+      height: 25vw;
+      width: 25vw;
+      overflow: hidden;
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      .me-pic {
+        background-size: cover;
+        background-position: center;
+        height: 25vw;
+        box-shadow: inset 0 0 1px #000000;
+        border-radius: 50%;
+      }
+    }
+    .glasses {
+      margin: 25px;
+    }
   }
 }
