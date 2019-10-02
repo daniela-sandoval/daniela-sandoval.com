@@ -1,10 +1,22 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
+import Bio from './bio.js'
+import { ReactComponent as Logo } from '../img/logo1.svg'
+import '../Stylesheets/about.scss'
+
+const StyledLogo = styled(Logo) `
+  height: 6vw;
+  position: fixed;
+  right: 36px;
+  top: 10px;
+`
 
 class About extends Component {
   render () {
     return (
-      <div>
-        hello i am meeee
+      <div className="about-page">
+        <StyledLogo />
+        <Bio />
       </div>
     )
   }
