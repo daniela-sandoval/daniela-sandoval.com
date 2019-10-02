@@ -7,28 +7,32 @@
     display: flex;
     justify-content: space-around;
   }
-  .about-btn {
-    opacity: 0;
-    font-family: 'Comfortaa';
-    font-weight: bold;
-    font-size: 18px;
-    color: white;
+  a {
     text-align: center;
-    transition: 0.5s;
-    border-radius: 10px;
-    letter-spacing: 5px;
-    margin: 0 auto;
-    padding: 20px;
-    border: none;
-    background-size: 200% auto;
-    box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 4px 8px 0 rgba(0,0,0,.2);
-    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
-    animation: fade_in 1.5s ease;
-    animation-delay: 4s;
-    animation-fill-mode: forwards;
-    &:hover {
-      cursor: pointer;
-      background-position: right center;
+    .about-btn {
+      opacity: 0;
+      font-family: 'Comfortaa';
+      font-weight: bold;
+      font-size: 18px;
+      color: white;
+      text-align: center;
+      transition: 0.5s;
+      border-radius: 10px;
+      letter-spacing: 5px;
+      margin: 0 auto;
+      padding: 20px;
+      border: none;
+      background-size: 200% auto;
+      box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 4px 8px 0 rgba(0,0,0,.2);
+      background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+      animation: fade_in 1.5s ease;
+      animation-delay: 4s;
+      animation-fill-mode: forwards;
+      &:hover {
+        color: black;
+        cursor: pointer;
+        background-position: right center;
+      }
     }
   }
 }

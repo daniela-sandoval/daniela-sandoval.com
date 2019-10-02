@@ -1,0 +1,36 @@
+.social-container {
+  position: fixed;
+  right: 36px;
+  bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  // .copyright {
+  //   small {
+  //     float: right;
+  //   }
+  // }
+  .socials {
+    display: flex;
+    flex-direction: row;
+    .icons {
+      color: white;
+      height: 45px;
+      width: 45px;
+      margin: 5px;
+      background-size: 200% auto;
+      box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 4px 8px 0 rgba(0,0,0,.2);
+      background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.6s;
+      &:hover {
+        color: black;
+        cursor: pointer;
+        background-position: right center;
+      }
+    }
+  }
+}

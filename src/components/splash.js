@@ -178,7 +178,7 @@ class Splash extends React.Component {
         </div>
         <StyledName />
         <StyledSub />
-        <button className="about-btn">ABOUT ME</button>
+        <a href="/about"><button className="about-btn">ABOUT ME</button></a>
         <div className="floaties">
           <StyledCoffee />
           <StyledGlasses />

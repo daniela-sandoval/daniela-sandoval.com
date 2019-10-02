@@ -2,8 +2,10 @@ import React from 'react';
 import { Switch, Route} from 'react-router-dom'
 import Navbar from './components/navbar';
 import About from './components/about'
+import Social from './components/social'
 import Splash from './components/splash'
 import './Stylesheets/app.scss'
+
 
 class App extends React.Component {
   render () {
@@ -14,6 +16,7 @@ class App extends React.Component {
           <Route path="/about" component={ About }/>
           <Route path="/" component={ Splash }/>
         </Switch>
+        <Social/>
       </div>
     );
   }
