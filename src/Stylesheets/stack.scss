@@ -1,18 +1,15 @@
 .stack-container {
-  border: 2px solid red;
   display: flex;
   width: 95%;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 20px;
   align-items: center;
+  margin: 20px;
   h1 {
     font-family: "Comfortaa";
-    margin-bottom: 0;
-    letter-spacing: 2px;
     font-size: 45px;
-    margin: 30px;
+    margin-top: 30px;
     letter-spacing: 7px;
   }
   .stack-wrapper {

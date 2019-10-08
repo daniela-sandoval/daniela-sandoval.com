@@ -1,0 +1,85 @@
+.project-container {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6vw;
+  .project-list {
+    border: 2px solid red;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .single-project {
+      border: 2px solid blue;
+      display: flex;
+      flex-direction: row;
+      padding: 20px;
+      width: 45%;
+      margin: 10px;
+      h2, h4 {
+        margin: 0;
+        font-family: "Comfortaa";
+      }
+      h4 {
+        margin-top: 5px;
+      }
+      .project-pics {
+        border: 2px solid red;
+        margin: 10px;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        width: 40%;
+        border: 2px solid red;
+        overflow-wrap: break-word;
+        hr {
+          width: 90%;
+          height: 0.5vh;
+          border: none;
+          background-size: 200% auto;
+          box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 4px 8px 0 rgba(0,0,0,.2);
+          background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+        }
+        .btns {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-evenly;
+          margin: 9px;
+          button {
+            font-family: 'Comfortaa';
+            font-weight: bold;
+            font-size: 10px;
+            color: white;
+            text-align: center;
+            transition: 0.5s;
+            border-radius: 10px;
+            letter-spacing: 5px;
+            margin: 0 auto;
+            padding: 10px;
+            border: none;
+            background-size: 200% auto;
+            box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 4px 8px 0 rgba(0,0,0,.2);
+            background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+            &:hover {
+              color: black;
+              cursor: pointer;
+              background-position: right center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { faLinkedinIn, faGithubAlt, faMediumM } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn, faGithubAlt, faMediumM, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '../Stylesheets/social.scss'
 
@@ -20,6 +20,11 @@ function Social() {
         <a href="https://medium.com/@daniela.sandoval" target="_blank" rel="noopener noreferrer">
           <div className="icons">
             <FontAwesomeIcon icon={faMediumM} style={{ fontSize: '17px'}}/>
+          </div>
+        </a>
+        <a href="https://twitter.com/danieladotjs" target="_blank" rel="noopener noreferrer">
+          <div className="icons">
+            <FontAwesomeIcon icon={faTwitter} style={{ fontSize: '17px'}}/>
           </div>
         </a>
       </div>

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import Bio from './bio.js'
 import Stack from './stack.js'
+import Site from './site.js'
 import { ReactComponent as Logo } from '../img/logo1.svg'
 import '../Stylesheets/about.scss'
 
@@ -22,6 +23,8 @@ class About extends Component {
         <Bio />
         <hr></hr>
         <Stack />
+        <hr></hr>
+        <Site />
       </div>
     )
   }

@@ -4,6 +4,7 @@ import Navbar from './components/navbar';
 import About from './components/about'
 import Social from './components/social'
 import Splash from './components/splash'
+import Projects from './components/projects'
 import './Stylesheets/app.scss'
 
 
@@ -14,6 +15,7 @@ class App extends React.Component {
         <Navbar/>
         <Switch>
           <Route path="/about" component={ About }/>
+          <Route path="/projects" component={ Projects }/>
           <Route path="/" component={ Splash }/>
         </Switch>
         <Social/>

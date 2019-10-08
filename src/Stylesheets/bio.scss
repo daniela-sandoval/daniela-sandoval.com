@@ -1,5 +1,4 @@
 .bio-container {
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -8,7 +7,6 @@
     margin: 10px;
   }
   .profile {
-    // border: 2px solid red;
     padding: 15px;
     width: 55%;
     h4, h1 {
