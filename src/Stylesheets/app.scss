@@ -1,13 +1,9 @@
-.portfolio {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  footer {
-    float: right;
-  }
-}
-
 html, body, #root {
   height: 100%;
   background-color: antiquewhite;
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
 }

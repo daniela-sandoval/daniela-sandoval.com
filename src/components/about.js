@@ -11,6 +11,7 @@ const StyledLogo = styled(Logo) `
   position: fixed;
   right: 36px;
   top: 10px;
+  z-index: 10;
 `
 
 class About extends Component {

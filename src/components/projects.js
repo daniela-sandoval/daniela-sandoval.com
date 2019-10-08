@@ -6,17 +6,20 @@ import '../Stylesheets/projects.scss'
 
 
 const StyledLogo = styled(Logo) `
+  position: fixed
   height: 6vw;
-  position: fixed;
   right: 36px;
   top: 10px;
+  z-index: 10;
 `
 
 class Projects extends Component {
   render () {
     return (
       <div className="project-container">
-        <StyledLogo />
+        <a href="/">
+          <StyledLogo />
+        </a>
         <h1>projects</h1>
         <div className="project-list">
           <div className="single-project">
