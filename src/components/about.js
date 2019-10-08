@@ -16,7 +16,9 @@ class About extends Component {
   render () {
     return (
       <div className="about-page">
-        <StyledLogo />
+        <a href="/">
+          <StyledLogo />
+        </a>
         <Bio />
         <hr></hr>
         <Stack />
