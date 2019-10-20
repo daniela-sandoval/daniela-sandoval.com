@@ -31,9 +31,12 @@
         border: 2px solid red;
         margin: 10px;
         width: 100%;
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
+        // background-size: contain;
+        // background-position: center;
+        // background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .information {
         display: flex;

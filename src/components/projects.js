@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { ReactComponent as Logo } from '../img/logo1.svg'
 import styled from 'styled-components'
+import FloriographyCarousel from './project-slideshow/floriography-pics.js'
 import FlorPic1 from '../img/flor-pic1.png'
 import '../Stylesheets/projects.scss'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 const StyledLogo = styled(Logo) `
@@ -23,7 +25,9 @@ class Projects extends Component {
         <h1>projects</h1>
         <div className="project-list">
           <div className="single-project">
-            <div className="project-pics" style={{backgroundImage: `url(${FlorPic1})`}}></div>
+            <div className="project-pics">
+              <FloriographyCarousel/>
+            </div>
             <div className="information">
               <h2>Title</h2>
               <h4>info like date</h4>
@@ -38,7 +42,9 @@ class Projects extends Component {
             </div>
           </div>
           <div className="single-project">
-            <div className="project-pics" style={{backgroundImage: `url(${FlorPic1})`}}></div>
+            <div className="project-pics">
+              <FloriographyCarousel/>
+            </div>
             <div className="information">
               <h2>Title</h2>
               <h4>info like date</h4>
@@ -53,7 +59,9 @@ class Projects extends Component {
             </div>
           </div>
           <div className="single-project">
-            <div className="project-pics" style={{backgroundImage: `url(${FlorPic1})`}}></div>
+            <div className="project-pics">
+              <FloriographyCarousel/>
+            </div>
             <div className="information">
               <h2>Title</h2>
               <h4>info like date</h4>
@@ -73,3 +81,20 @@ class Projects extends Component {
   }
 }
 export default Projects;
+
+// <div className="single-project">
+//   <div className="project-pics" style={{backgroundImage: `url(${FlorPic1})`}}></div>
+//   <div className="information">
+//     <h2>Title</h2>
+//     <h4>info like date</h4>
+//     <p>asdlkajsdlkajsdlkajsdlakjsdlaksjdlakjsdlakjsdlaksjdlkasjd</p>
+//     <p>Tech Stack: abc, abc, abc, abc</p>
+//     <hr></hr>
+//     <div className="btns">
+//       <button>code</button>
+//       <button>live</button>
+//       <button>demo</button>
+//     </div>
+//   </div>
+// </div>
+//
