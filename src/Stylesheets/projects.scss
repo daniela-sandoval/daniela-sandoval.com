@@ -25,10 +25,12 @@
       }
       h4 {
         margin-top: 5px;
+        font-style: italic;
       }
       .project-pics {
         border: 2px solid red;
-        margin: 10px;
+        // margin: 10px;
+        // height: 100%;
         width: 60%;
         // background-size: contain;
         // background-position: center;
@@ -59,25 +61,27 @@
           align-items: center;
           justify-content: space-evenly;
           margin: 9px;
-          button {
-            font-family: 'Comfortaa';
-            font-weight: bold;
-            font-size: 10px;
-            color: white;
-            text-align: center;
-            transition: 0.5s;
-            border-radius: 10px;
-            letter-spacing: 5px;
-            margin: 0 auto;
-            padding: 10px;
-            border: none;
-            background-size: 200% auto;
-            box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 4px 8px 0 rgba(0,0,0,.2);
-            background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
-            &:hover {
-              color: black;
-              cursor: pointer;
-              background-position: right center;
+          a {
+            button {
+              font-family: 'Comfortaa';
+              font-weight: bold;
+              font-size: 10px;
+              color: white;
+              text-align: center;
+              transition: 0.5s;
+              border-radius: 10px;
+              letter-spacing: 5px;
+              margin: 0 auto;
+              padding: 10px;
+              border: none;
+              background-size: 200% auto;
+              box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 4px 8px 0 rgba(0,0,0,.2);
+              background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+              &:hover {
+                color: black;
+                cursor: pointer;
+                background-position: right center;
+              }
             }
           }
         }

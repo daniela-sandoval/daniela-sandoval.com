@@ -10,7 +10,7 @@ import './Stylesheets/app.scss'
 const showNav = {
   backgroundColor: "#799ad9b3",
   position: "fixed",
-  minHeight: "13.5vh",
+  minHeight: "12vh",
   width: "100vw",
   transition: "0.4s",
   zIndex: "1"
