@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 
 function FloriographyCarousel() {
   return (
-    <Carousel showArrows={true} showThumbs={false} showIndicators={true} swipeable={true}>
+    <Carousel showThumbs={false} swipeable={true}>
       <div>
         <img src={FlorPic1} alt="floriography demo"/>
       </div>

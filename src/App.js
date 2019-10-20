@@ -17,27 +17,27 @@ const showNav = {
 }
 
 class App extends React.Component {
-  state = {
-    scroll: false
-  }
+  // state = {
+  //   scroll: false
+  // }
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll)
-  }
+  // componentDidMount() {
+  //   window.addEventListener('scroll', this.handleScroll)
+  // }
 
-  handleScroll = (e) => {
-    if (window.scrollY > 100) {
-      this.setState({scroll: true})
-    } else if (window.scrollY === 0) {
-      this.setState({scroll: false})
-    }
-  }
+  // handleScroll = (e) => {
+  //   if (window.scrollY > 100) {
+  //     this.setState({scroll: true})
+  //   } else if (window.scrollY === 0) {
+  //     this.setState({scroll: false})
+  //   }
+  // }
 
   render () {
     return (
       <div className="portfolio">
         <Navbar/>
-        <div style={this.state.scroll ? showNav : null} className="fake-nav">
+        <div style={window.location.pathname === "/"? null : showNav} className="fake-nav">
         </div>
         <Switch>
           <Route path="/about" component={ About }/>
