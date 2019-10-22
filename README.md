@@ -11,3 +11,8 @@
 * ⏹ Incorporate medium blog posts/api usage for blog component
 * ⏹ Contact component
 * ✅✅✅ Decide whether or not I want to incorporate cats or some other fun element to initial splash/landing page
+
+### Future Tasks:
+* ⏹ Web Responsiveness (will it look okay on a phone?)
+* ⏹ Accessibility 
+
