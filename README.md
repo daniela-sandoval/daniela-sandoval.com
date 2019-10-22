@@ -6,7 +6,7 @@
 * ✅ Possibly make logo/svg???
 * ✅ Header w/ logo
 * ✅ Make navbar
-* ⏹ About Component (30% there!)
+* ✅ About Component (30% there!)
 * ⏹ Projects Component
 * ⏹ Incorporate medium blog posts/api usage for blog component
 * ⏹ Contact component
