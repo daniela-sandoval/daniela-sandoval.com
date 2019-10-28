@@ -16,11 +16,12 @@
       margin-bottom: 0;
       letter-spacing: 2px;
       font-size: 45px;
+      color: #b23a6c;
     }
     h4 {
       margin: 10px 0 0 0;
       font-size: 17px;
-      color: white;
+      color: #26bd9f;
     }
     .sub-line {
       margin-top: 5px;
@@ -43,7 +44,7 @@
         -webkit-text-stroke: 0.2px;
         background-size: 200% auto;
         box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 4px 8px 0 rgba(0,0,0,.2);
-        background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+        background-image: linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
         &:hover {
           color: black;
           cursor: pointer;

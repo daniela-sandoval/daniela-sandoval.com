@@ -38,9 +38,10 @@ const draw = keyframes `
    }
   100% {
     opacity: 1;
-    fill: black;
+    fill: #b23a6c;
   }
 `
+
 const appear = keyframes `
   0% {
     opacity: 0;
@@ -120,7 +121,7 @@ const StyledPot = styled(Pot) `
 const StyledName = styled(DanielaName) `
   opacity: 0;
   height: 6vw;
-  stroke: black;
+  stroke: #b23a6c;
   stroke-width: 2px;
   fill: transparent;
   overflow: visible;
