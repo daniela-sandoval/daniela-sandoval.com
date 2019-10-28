@@ -18,7 +18,7 @@ class Projects extends Component {
     return (
       <div className="project-container">
         <a href="/">
-          <StyledLogo />
+          <StyledLogo class="logo"/>
         </a>
         <h1>projects</h1>
         <div className="project-list">
