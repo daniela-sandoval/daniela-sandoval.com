@@ -12,28 +12,31 @@
     border: 2px solid red;
     padding: 2px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     .single-project {
       border: 2px solid blue;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       padding: 20px;
-      width: 70%;
+      // width: 50%;
       margin: 10px;
       h2, h4 {
         margin: 0;
         font-family: "Comfortaa";
       }
+      h2 {
+        color: #b23a6c;
+      }
       h4 {
         margin-top: 5px;
+        color: #26bd9f;
       }
       .project-pics {
         border: 2px solid red;
-        margin: 10px;
-        width: 60%;
-        background-size: contain;
+        height: 300px;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         display: flex;
@@ -45,7 +48,6 @@
         flex-direction: column;
         justify-content: center;
         padding: 20px;
-        width: 40%;
         border: 2px solid red;
         overflow-wrap: break-word;
         hr {
