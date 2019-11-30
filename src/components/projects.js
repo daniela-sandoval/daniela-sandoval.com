@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { ReactComponent as Logo } from '../img/logo1.svg'
 import styled from 'styled-components'
 import FlorPic1 from '../img/florpic2.png'
+import Grave from '../img/graveyard.png'
+import Bodega from '../img/bodega1.png'
 import '../Stylesheets/projects.scss'
 
 
@@ -22,39 +24,50 @@ class Projects extends Component {
         </a>
         <h1>projects</h1>
         <div className="project-list">
-          <div class="column_one">
-            <div className="single-project">
-              <div className="project-pics" style={{backgroundImage: `url(${FlorPic1})`}}></div>
-              <div className="information">
-                <h2>Floriography</h2>
-                <h4>August 2019</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Tech: Rails, ActionMailer, React, Redux, Watson Tone Analyzer</p>
-                <hr></hr>
-                <div className="btns">
-                  <a href="https://github.com/daniela-sandoval/Floriography-App-Frontend" target="_blank" rel="noopener noreferrer"><button>front</button></a>
-                  <a href="https://github.com/daniela-sandoval/Floriography-App-Backend" target="_blank" rel="noopener noreferrer"><button>back</button></a>
-                  <a href="https://floriography.herokuapp.com" target="_blank" rel="noopener noreferrer"><button>live</button></a>
-                  <a href="https://youtu.be/3J0I3uoayso" target="_blank" rel="noopener noreferrer"><button>demo</button></a>
-                </div>
+          <div className="single-project">
+            <div className="project-pics" style={{backgroundImage: `url(${FlorPic1})`}}></div>
+            <div className="information">
+              <h2>Floriography</h2>
+              <h4>August 2019</h4>
+              <p>Communicate in the language of flowers by using either adjectives or text inputs and create bouquets! Discover the different meanings by hovering or explore the garden to see all flowers. If you love what you've created, try emailing it to someone!</p>
+              <p><em>Rails · ActionMailer · React · Redux · IBM Watson Tone Analyzer API</em></p>
+              <hr></hr>
+              <div className="btns">
+                <a href="https://github.com/daniela-sandoval/Floriography-App-Frontend" target="_blank" rel="noopener noreferrer"><button>front</button></a>
+                <a href="https://github.com/daniela-sandoval/Floriography-App-Backend" target="_blank" rel="noopener noreferrer"><button>back</button></a>
+                <a href="https://floriography.herokuapp.com" target="_blank" rel="noopener noreferrer"><button>live</button></a>
+                <a href="https://youtu.be/3J0I3uoayso" target="_blank" rel="noopener noreferrer"><button>demo</button></a>
               </div>
             </div>
           </div>
-          <div class="column_two">
-            <div className="single-project">
-              <div className="project-pics" style={{backgroundImage: `url(${FlorPic1})`}}></div>
-              <div className="information">
-                <h2>Floriography</h2>
-                <h4>August 2019</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Tech: Rails, ActionMailer, React, Redux, Watson Tone Analyzer</p>
-                <hr></hr>
-                <div className="btns">
-                  <a href="https://github.com/daniela-sandoval/Floriography-App-Frontend" target="_blank" rel="noopener noreferrer"><button>front</button></a>
-                  <a href="https://github.com/daniela-sandoval/Floriography-App-Backend" target="_blank" rel="noopener noreferrer"><button>back</button></a>
-                  <a href="https://floriography.herokuapp.com" target="_blank" rel="noopener noreferrer"><button>live</button></a>
-                  <a href="https://youtu.be/3J0I3uoayso" target="_blank" rel="noopener noreferrer"><button>demo</button></a>
-                </div>
+          <div className="single-project">
+            <div className="project-pics" style={{backgroundImage: `url(${Bodega})`}}></div>
+            <div className="information">
+              <h2>La Bodega</h2>
+              <h4>July 2019</h4>
+              <p>Want to remember your friendly neighborhood deli? Miss NYC? No problem, try shopping and browse through our iconic New York products. Make sure to add money to your wallet every so often! </p>
+              <p><em>Rails · JavaScript Web Tokens · React · React Semantics</em></p>
+              <hr></hr>
+              <div className="btns">
+                <a href="https://github.com/daniela-sandoval/bodega-app-frontend" target="_blank" rel="noopener noreferrer"><button>front</button></a>
+                <a href="https://github.com/daniela-sandoval/bodega-app-backend" target="_blank" rel="noopener noreferrer"><button>back</button></a>
+                <a href="https://youtu.be/3J0I3uoayso" target="_blank" rel="noopener noreferrer"><button>demo</button></a>
+              </div>
+            </div>
+          </div>
+          <div className="single-project">
+            <div className="project-pics" style={{backgroundImage: `url(${Grave})`}}></div>
+            <div className="information">
+              <h2>The Graveyard</h2>
+              <h4>July 2019</h4>
+              <p>No longer will you have to wait till October to get your Halloween fix. The Graveyard let's you read, write, and comment on a library stories written by other Internet travels. Be careful, you might summon a ghost or two!</p>
+              <p><em>Rails · JavaScript · Bootstrap · Anime.js</em></p>
+              <hr></hr>
+              <div className="btns">
+                <a href="https://github.com/daniela-sandoval/The_graveyard/tree/master/project_frountend" target="_blank" rel="noopener noreferrer"><button>front</button></a>
+                <a href="https://github.com/daniela-sandoval/The_graveyard/tree/master/project_backend" target="_blank" rel="noopener noreferrer"><button>back</button></a>
+                <a href="https://the-graveyard-app.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button>live</button></a>
+                <a href="https://youtu.be/uFopq3tpZD8" target="_blank" rel="noopener noreferrer"><button>demo</button></a>
               </div>
             </div>
           </div>

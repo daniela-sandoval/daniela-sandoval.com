@@ -14,12 +14,13 @@
   .project-list {
     // border: 2px solid red;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 2px;
     .single-project {
       // border: 2px solid red;
+      width: 70%;
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -30,6 +31,7 @@
         font-family: "Comfortaa";
       }
       h2 {
+        letter-spacing: 5px;
         color: #b23a6c;
       }
       h4 {
@@ -38,13 +40,12 @@
       }
       .project-pics {
         // border: 2px solid red;
-        height: 350px;
-        width: 600px;
+        height: 400px;
+        width: 700px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        box-shadow: 6px 10px 17px 0px rgb(0, 0, 0);
-
+        box-shadow: 6px 10px 17px 0px #000000ab;
       }
       .information {
         display: flex;
@@ -55,7 +56,7 @@
         text-align: center;
         hr {
           width: 90%;
-          height: 0.5vh;
+          height: 0.2vh;
           border: none;
           background-size: 200% auto;
           box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 4px 8px 0 rgba(0,0,0,.2);
@@ -80,7 +81,7 @@
             padding: 10px;
             border: none;
             background-size: 200% auto;
-            box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 4px 8px 0 rgba(0,0,0,.2);
+            box-shadow: 3px 5px 8px 0px #000000ab;
             background-image:  linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
             &:hover {
               color: black;
