@@ -1,7 +1,7 @@
 .social-container {
   position: fixed;
   right: 36px;
-  bottom: 36px;
+  bottom: 25px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -15,8 +15,8 @@
     flex-direction: row;
     .icons {
       color: white;
-      height: 45px;
-      width: 45px;
+      height: 40px;
+      width: 40px;
       margin: 5px;
       background-size: 200% auto;
       box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 4px 8px 0 rgba(0,0,0,.2);
