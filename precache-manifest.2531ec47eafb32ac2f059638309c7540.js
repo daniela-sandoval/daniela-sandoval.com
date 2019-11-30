@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6df0d11ac3dfb1dfd2c136f4c412990f",
+    "revision": "7269f32d55a0fb8b8625a07dd4894008",
     "url": "/index.html"
   },
   {
-    "revision": "1802dc2dc48e4e122120",
-    "url": "/static/css/main.2af2bb85.chunk.css"
+    "revision": "e0fdfcd578da826089f1",
+    "url": "/static/css/main.65f326ed.chunk.css"
   },
   {
-    "revision": "600b3d78c913ca9a0320",
-    "url": "/static/js/2.ad79dcec.chunk.js"
+    "revision": "728d15daaf6cfd5da189",
+    "url": "/static/js/2.b4f899d8.chunk.js"
   },
   {
-    "revision": "1802dc2dc48e4e122120",
-    "url": "/static/js/main.2bd7027b.chunk.js"
+    "revision": "e0fdfcd578da826089f1",
+    "url": "/static/js/main.85e9b31d.chunk.js"
   },
   {
     "revision": "416cc1c79b8c22940a8c",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1ecd21a8b75362f946fd0ec2bcc369a0",
     "url": "/static/media/Ruby_On_Rails_Logo.1ecd21a8.png"
+  },
+  {
+    "revision": "e144eaad2fc8d553b26313565f36a72f",
+    "url": "/static/media/bodega1.e144eaad.png"
   },
   {
     "revision": "113cba3e4d8d2c4d0acafe549ac89cb2",
@@ -52,16 +56,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/elephant.2f6096df.png"
   },
   {
-    "revision": "e8d7e902ef172bd6ec51f097c698a3b8",
-    "url": "/static/media/flor-pic1.e8d7e902.png"
+    "revision": "5b6b408d0d44ab1082084de93a8173c6",
+    "url": "/static/media/florpic2.5b6b408d.png"
   },
   {
-    "revision": "127ce0e4900627d0989aeea80c998417",
-    "url": "/static/media/full-stack.127ce0e4.svg"
+    "revision": "9837e0a311eb4f8e47bb922a379853e2",
+    "url": "/static/media/full-stack.9837e0a3.svg"
   },
   {
     "revision": "217a24d4289f6f650f79ae05f3918596",
     "url": "/static/media/glasses.217a24d4.svg"
+  },
+  {
+    "revision": "2e3bb1f84ef94fc71b5903fee9f9cc72",
+    "url": "/static/media/graveyard.2e3bb1f8.png"
   },
   {
     "revision": "7616b804dcb979b82748d6574d13864b",
