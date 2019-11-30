@@ -5,43 +5,45 @@ import About from './components/about'
 import Social from './components/social'
 import Splash from './components/splash'
 import Projects from './components/projects'
+import Contact from './components/contact'
 import './Stylesheets/app.scss'
 
 const showNav = {
-  backgroundColor: "#799ad9b3",
+  backgroundColor: "rgba(101, 100, 104, 0.5)",
   position: "fixed",
-  minHeight: "13.5vh",
+  minHeight: "11vh",
   width: "100vw",
   transition: "0.4s",
   zIndex: "1"
 }
 
 class App extends React.Component {
-  // state = {
-  //   scroll: false
-  // }
+  state = {
+    scroll: false
+  }
 
-  // componentDidMount() {
-  //   window.addEventListener('scroll', this.handleScroll)
-  // }
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  }
 
-  // handleScroll = (e) => {
-  //   if (window.scrollY > 100) {
-  //     this.setState({scroll: true})
-  //   } else if (window.scrollY === 0) {
-  //     this.setState({scroll: false})
-  //   }
-  // }
+  handleScroll = (e) => {
+    if (window.scrollY > 100) {
+      this.setState({scroll: true})
+    } else if (window.scrollY === 0) {
+      this.setState({scroll: false})
+    }
+  }
 
   render () {
     return (
       <div className="portfolio">
         <Navbar/>
-        <div style={window.location.pathname === "/"? null : showNav} className="fake-nav">
+        <div style={this.state.scroll ? showNav : null} className="fake-nav">
         </div>
         <Switch>
           <Route path="/about" component={ About }/>
           <Route path="/projects" component={ Projects }/>
+          <Route path="/contact" component={ Contact }/>
           <Route path="/" component={ Splash }/>
         </Switch>
         <Social/>

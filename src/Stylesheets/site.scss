@@ -1,6 +1,21 @@
-h1 {
-  font-family: "Comfortaa";
-  font-size: 45px;
-  margin-top: 30px;
-  letter-spacing: 7px;
+.site{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    font-family: "Comfortaa";
+    font-size: 50px;
+    margin-top: 30px;
+    letter-spacing: 7px;
+    color: #b23a6c;
+  }
+  .site-stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 17px;
+    color: #26bd9f;
+    font-family: "Comfortaa";
+    font-weight: bold;
+  }
 }

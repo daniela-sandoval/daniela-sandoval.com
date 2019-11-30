@@ -7,7 +7,7 @@ import { ReactComponent as Logo } from '../img/logo1.svg'
 import '../Stylesheets/about.scss'
 
 const StyledLogo = styled(Logo) `
-  height: 6vw;
+  height: 5vw;
   position: fixed;
   right: 36px;
   top: 10px;
@@ -19,7 +19,7 @@ class About extends Component {
     return (
       <div className="about-page">
         <a href="/">
-          <StyledLogo />
+          <StyledLogo class="logo"/>
         </a>
         <Bio />
         <hr></hr>

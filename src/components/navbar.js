@@ -8,9 +8,9 @@ const Navbar = () => {
       <a id="home" className="menu-item" href="/">HOME</a>
       <a id="about" className="menu-item" href="/about">ABOUT</a>
       <a id="projects" className="menu-item" href="/projects">PROJECTS</a>
-      <a id="blog" className="menu-item" href="/blog">BLOG</a>
       <a id="contact" className="menu-item" href="/contact">CONTACT</a>
     </Menu>
   )
 }
 export default Navbar
+// <a id="blog" className="menu-item" href="/blog">BLOG</a>

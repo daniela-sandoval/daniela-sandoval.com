@@ -18,7 +18,6 @@ const float = keyframes `
 `
 
 const StyledGlassesBio = styled(Glasses) `
-  opacity: 1;
   height: 4.1vw;
   animation: ${float} 3s ease-in-out infinite;
 `
@@ -33,11 +32,14 @@ class Bio extends Component {
     return (
       <div className="bio-container">
         <div className="profile">
-          <h1>daniela sandoval</h1>
-          <h4>full stack web developer</h4>
+          <h1>hi, i'm daniela!</h1>
+          <h4>full stack software developer</h4>
           <h4 className="sub-line">brooklyn, ny</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div className="bio-text">
+            <p><span role="img" aria-label="cat">🐈</span> Daniela is currently leveling up her coding skills or taking a break to play with her cats. After graduating from St. John's University, her love for digital media led her down the rabbit hole of web development. With the help of the Flatiron School and a loving cohort, Daniela is proud to call herself a Software Developer. She is actively pursuing new opportunities to level up her coding skills as she commutes all over NYC. As a developer, she hopes to continue learning, but also help others to love code! </p>
+            <p><span role="img" aria-label="cat">🐈</span> Her first steps with coding actually began by trying to insert music players and scrolling through hundreds of different Tumblr themes. It was fun connecting the different combination of words with what was appearing on the browser. Now, opening up developer tools has become second nature when coming across a site that sparks her interest. Becoming a maker of digital spaces leads Daniela into creating applications that are not only unique experiences, but are also functional. Daniela loves interacting with others especially when collaborating on projects because new prospectives open doors to new possibilities.</p>
+            <p><span role="img" aria-label="cat">🐈</span> When she's not refactoring code, Daniela is the ultimate cat mom. She loves showing off her two cats Mochi and Lychee. On her spare time, you can find her playing ukulele, watching Great British Bake Off, fighting in Dungeons and Dragons, or playing a relaxing mobile game.</p>
+          </div>
           <div className="profile-btns">
               <a href={ Resume } download>
                 <button className="resume-btn">RESUME</button>
@@ -51,7 +53,7 @@ class Bio extends Component {
           <div className="glasses">
             <StyledGlassesBio />
           </div>
-        </div> 
+        </div>
       </div>
     )
   }

@@ -9,14 +9,14 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: #787a81;
   border-radius: 5px;
   transition: 0.5s;
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #c44aa2;
+  background: #b23a6c;
 }
 
 
@@ -49,16 +49,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
-  width: 100% !important;
+  width: 20% !important;
 }
 
 /* General sidebar styles */
 .bm-menu {
   // background: #3d5ee169;
   // background: #647bd8e0;
-  font-size: 1.15em;
+  font-size: 1.1em;
   background-size: 200% auto;
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  background-image: linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -69,7 +69,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Wrapper for item list */
 .bm-item-list {
   color: #b8b7ad;
-  padding: 0.8em;
+  // padding: 0.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -95,5 +95,5 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Styling of overlay */
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
 }

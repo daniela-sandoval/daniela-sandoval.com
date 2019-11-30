@@ -1,7 +1,7 @@
 .social-container {
   position: fixed;
   right: 36px;
-  bottom: 36px;
+  bottom: 25px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -15,12 +15,12 @@
     flex-direction: row;
     .icons {
       color: white;
-      height: 45px;
-      width: 45px;
+      height: 40px;
+      width: 40px;
       margin: 5px;
       background-size: 200% auto;
-      box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 4px 8px 0 rgba(0,0,0,.2);
-      background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+      box-shadow: 3px 5px 8px 0px #000000ab;
+      background-image: linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
       border-radius: 50%;
       display: flex;
       justify-content: center;
