@@ -5,10 +5,11 @@ import About from './components/about'
 import Social from './components/social'
 import Splash from './components/splash'
 import Projects from './components/projects'
+import Contact from './components/contact'
 import './Stylesheets/app.scss'
 
 const showNav = {
-  backgroundColor: "#799ad9b3",
+  backgroundColor: "rgba(101, 100, 104, 0.5)",
   position: "fixed",
   minHeight: "11vh",
   width: "100vw",
@@ -42,6 +43,7 @@ class App extends React.Component {
         <Switch>
           <Route path="/about" component={ About }/>
           <Route path="/projects" component={ Projects }/>
+          <Route path="/contact" component={ Contact }/>
           <Route path="/" component={ Splash }/>
         </Switch>
         <Social/>

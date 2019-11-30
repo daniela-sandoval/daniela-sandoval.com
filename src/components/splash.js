@@ -132,7 +132,7 @@ const StyledName = styled(DanielaName) `
   animation-fill-mode: forwards;
 `
 const StyledSub = styled(FullStack) `
-  height: 1.5vw;
+  height: 1.7vw;
   margin-top: 3%;
   margin-bottom: 3%;
   opacity: 0;

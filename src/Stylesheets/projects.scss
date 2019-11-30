@@ -1,7 +1,7 @@
 .project-container {
   // border: 2px solid red;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 4vw;
@@ -11,16 +11,38 @@
   h1 {
     margin: 5px;
   }
+  .project-visual {
+    height: 100%;
+    // border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    h1 {
+      font-family: "Comfortaa";
+      font-size: 55px;
+      font-weight: bold;
+      letter-spacing: 7px;
+      color: #b23a6c;
+    }
+  }
   .project-list {
     // border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 2px;
+    width: 70%;
+    height: 100%;
+    overflow: auto;
+    margin-left: 27%;
     .single-project {
       // border: 2px solid red;
-      width: 70%;
+      width: 80%;
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -40,8 +62,8 @@
       }
       .project-pics {
         // border: 2px solid red;
-        height: 400px;
-        width: 700px;
+        height: 450px;
+        width: 750px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -54,6 +76,11 @@
         padding: 20px;
         overflow-wrap: break-word;
         text-align: center;
+        .project-text {
+          background-color: #d6d1d14f;
+          border-radius: 10px;
+          margin: 10px 0;
+        }
         hr {
           width: 90%;
           height: 0.2vh;
