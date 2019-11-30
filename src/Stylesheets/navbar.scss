@@ -36,7 +36,7 @@
 /* Color/shape of close button cross */
 .bm-cross {
   background: #373a47;
-  height: 45px !important;
+  height: 30px !important;
   width: 5px !important;
   border-radius: 5px;
 }
@@ -69,7 +69,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Wrapper for item list */
 .bm-item-list {
   color: #b8b7ad;
-  // padding: 0.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -79,7 +78,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Individual item */
 .bm-item {
   font-family: "Comfortaa";
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
   letter-spacing: 5px;
   text-decoration: none;

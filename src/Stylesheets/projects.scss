@@ -9,7 +9,7 @@
     fill: #b23a6c;
   }
   h1 {
-    margin: 5px;
+    margin: 2px;
   }
   .project-visual {
     height: 100%;
@@ -24,7 +24,7 @@
     top: 0;
     h1 {
       font-family: "Comfortaa";
-      font-size: 55px;
+      font-size: 50px;
       font-weight: bold;
       letter-spacing: 7px;
       color: #b23a6c;
@@ -59,11 +59,12 @@
       h4 {
         margin-top: 5px;
         color: #26bd9f;
+        font-size: 13px;
       }
       .project-pics {
         // border: 2px solid red;
-        height: 450px;
-        width: 750px;
+        height: 350px;
+        width: 600px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -80,6 +81,8 @@
           background-color: #d6d1d14f;
           border-radius: 10px;
           margin: 10px 0;
+          font-size: 12px;
+          padding: 5px 0 1px;
         }
         hr {
           width: 90%;

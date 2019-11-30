@@ -19,7 +19,6 @@ class Stack extends Component {
   render() {
     return (
       <div className="stack-container">
-        <h1>tech stack</h1>
         <div className="stack-wrapper">
           <div className="front">
             <div className="top-div">frontend</div>
