@@ -9,7 +9,7 @@ function Site() {
         <div>
           <p><span role="img" aria-label="react">⚛️</span>React</p>
           <p><span role="img" aria-label="burger">🍔</span>React Burger Menu</p>
-          <p><span role="img" aria-label="dance">💃🏻</span>React Animations</p>
+          <p><span role="img" aria-label="dance">💃🏻</span>Radium</p>
           <p><span role="img" aria-label="style">💅🏼</span>Styled Components</p>
         </div>
         <div>

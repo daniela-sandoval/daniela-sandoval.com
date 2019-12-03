@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import '../Stylesheets/contact.scss'
 import styled, { keyframes } from 'styled-components'
 import { ReactComponent as Cat } from '../img/cat.svg'
+import { ReactComponent as Logo } from '../img/logo1.svg'
+import '../Stylesheets/contact.scss'
 
 const float = keyframes `
   0% {
@@ -19,13 +20,23 @@ const StyledCatContact = styled(Cat) `
   height: 15vw;
   animation: ${float} 2s ease-in-out infinite;
 `
+const StyledLogo = styled(Logo) `
+position: fixed
+height: 5vw;
+right: 36px;
+top: 10px;
+z-index: 10;
+`
 
 class Contact extends Component {
   render() {
     return (
       <div className="contact-wrapper">
+        <a href="/">
+          <StyledLogo className="logo"/>
+        </a>
         <div className="contact-visual">
-          <StyledCatContact/>
+          <StyledCatContact className="svg-cat"/>
         </div>
         <hr></hr>
         <div className="contact-info">

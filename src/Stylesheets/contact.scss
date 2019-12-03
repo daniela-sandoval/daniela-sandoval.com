@@ -5,6 +5,9 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  #b660fb60-2738-45cb-bcf5-2f531dcaa282 {
+    fill: #b23a6c;
+  }
   hr {
     width: 30%;
     height: .3vh;
@@ -24,9 +27,59 @@
       color: #b23a6c;
     }
     h4 {
-      margin-top: 5px;
+      // margin-top: 5px;
       letter-spacing: 2px;
       color: #26bd9f;
     }
+  }
+
+  p {
+    font-family: "Comfortaa";
+    background-color: #d6d1d14f;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 7px;
+    margin: 0;
+  }
+}
+
+// ********** MEDIA QUERIES **********
+
+// PHONE: potrait
+
+
+@media screen and (max-width: 480px) {
+  .contact-wrapper {
+    justify-content: flex-start;
+    margin-top: 25vh;
+    .logo {
+      height: 15vw;
+      top: 11px;
+      right: 26px;
+    }
+    .contact-visual {
+      .svg-cat {
+        height: 34vw;
+        margin: 12px;
+      }
+    }
+
+    hr {
+      width: 60%;
+      height: .2vh;
+    }
+
+    .contact-info {
+      h1 {
+        font-size: 23px;
+      }
+      h4 {
+        font-size: 13px;
+      }
+    }
+    p {
+      font-size: 12px;
+    }
+
   }
 }
