@@ -61,6 +61,7 @@
 
 @media screen and (max-width: 480px) {
   .splash-page {
+    margin-bottom: 40px;
     .splash-info {
       .name {
         height: 11vw;
@@ -72,9 +73,10 @@
       }
       a {
         .about-btn {
+          font-size: 9px;
           padding: 9px;
           margin: 5px;
-          letter-spacing: 4px;
+          letter-spacing: 3px;
           border-radius: 7px;
         }
       }
