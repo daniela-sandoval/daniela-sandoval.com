@@ -61,15 +61,15 @@
 
 @media screen and (max-width: 480px) {
   .splash-page {
-    .name {
-      height: 11vw;
-    }
-
-    .sub-name {
-      margin: 6% 6%;
-      height: 3.6vw;
-    }
     .splash-info {
+      .name {
+        height: 11vw;
+      }
+
+      .sub-name {
+        margin: 6% 6%;
+        height: 3.6vw;
+      }
       a {
         .about-btn {
           padding: 9px;
@@ -83,16 +83,16 @@
     .floaties {
       margin: 30px;
       .laptop {
-        height: 21vw;
+        height: 20vw;
       }
       .cat {
-        height: 21vw;
+        height: 20vw;
       }
       .coffee {
-        height: 13vw;
+        height: 12vw;
       }
       .glasses {
-        height: 10vw;
+        height: 9vw;
       }
       .laptop, .cat, .coffee, .glasses {
         margin: 0 5px 0 5px;
@@ -100,7 +100,7 @@
     }
 
     .pot {
-      height: 22vw;
+      height: 21vw;
     }
 
   }
