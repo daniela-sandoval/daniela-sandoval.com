@@ -34,3 +34,19 @@
     }
   }
 }
+
+// ********** MEDIA QUERIES **********
+
+// Phone: portrait
+@media screen and (max-width: 320px) {
+  .social-container {
+    right: 26px;
+    bottom: 20px;
+    .socials {
+      .icons {
+        height: 30px;
+        width: 30px;
+      }
+    }
+  }
+}

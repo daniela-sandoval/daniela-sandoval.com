@@ -7,31 +7,36 @@
     display: flex;
     justify-content: space-around;
   }
-  a {
-    text-align: center;
-    .about-btn {
-      opacity: 0;
-      font-family: 'Comfortaa';
-      font-weight: bold;
-      font-size: 12px;
-      color: white;
+  .splash-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    a {
       text-align: center;
-      transition: 0.5s;
-      border-radius: 10px;
-      letter-spacing: 5px;
-      margin: 0 auto;
-      padding: 12px;
-      border: none;
-      background-size: 200% auto;
-      box-shadow: 2px 7px 8px 0px #000000ab;
-      background-image: linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
-      animation: fade_in 1.5s ease;
-      animation-delay: 4s;
-      animation-fill-mode: forwards;
-      &:hover {
-        color: black;
-        cursor: pointer;
-        background-position: right center;
+      .about-btn {
+        opacity: 0;
+        font-family: 'Comfortaa';
+        font-weight: bold;
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        transition: 0.5s;
+        border-radius: 10px;
+        letter-spacing: 5px;
+        margin: 0 auto;
+        padding: 12px;
+        border: none;
+        background-size: 200% auto;
+        box-shadow: 2px 7px 8px 0px #000000ab;
+        background-image: linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
+        animation: fade_in 1.5s ease;
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
+        &:hover {
+          color: black;
+          cursor: pointer;
+          background-position: right center;
+        }
       }
     }
   }
@@ -46,5 +51,57 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+// ********** MEDIA QUERIES **********
+
+// PHONE: potrait
+
+
+@media screen and (max-width: 480px) {
+  .splash-page {
+    .name {
+      height: 11vw;
+    }
+
+    .sub-name {
+      margin: 6% 6%;
+      height: 3.6vw;
+    }
+    .splash-info {
+      a {
+        .about-btn {
+          padding: 9px;
+          margin: 5px;
+          letter-spacing: 4px;
+          border-radius: 7px;
+        }
+      }
+    }
+
+    .floaties {
+      margin: 30px;
+      .laptop {
+        height: 21vw;
+      }
+      .cat {
+        height: 21vw;
+      }
+      .coffee {
+        height: 13vw;
+      }
+      .glasses {
+        height: 10vw;
+      }
+      .laptop, .cat, .coffee, .glasses {
+        margin: 0 5px 0 5px;
+      }
+    }
+
+    .pot {
+      height: 22vw;
+    }
+
   }
 }

@@ -49,7 +49,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
-  width: 20% !important;
 }
 
 /* General sidebar styles */
@@ -95,4 +94,21 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.5);
+}
+
+
+// ********** MEDIA QUERIES **********
+
+// Phone: portrait
+@media screen and (max-width: 360px) {
+  .bm-burger-button {
+    width: 40px;
+    height: 27px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bm-item {
+    font-size: 1.5em;
+  }
 }

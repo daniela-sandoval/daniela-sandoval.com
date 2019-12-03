@@ -133,8 +133,7 @@ const StyledName = styled(DanielaName) `
 `
 const StyledSub = styled(FullStack) `
   height: 1.7vw;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin: 3% 3%;
   opacity: 0;
   animation: ${appear} 1.5s ease;
   animation-delay: 3s;
@@ -174,17 +173,19 @@ class Splash extends React.Component {
     return (
       <div className="splash-page">
         <div className="floaties">
-          <StyledLaptop />
-          <StyledCat />
+          <StyledLaptop className="laptop"/>
+          <StyledCat className="cat"/>
         </div>
-        <StyledName />
-        <StyledSub />
-        <a href="/about"><button className="about-btn">ABOUT ME</button></a>
+        <div className="splash-info">
+          <StyledName className="name"/>
+          <StyledSub className="sub-name"/>
+          <a href="/about"><button className="about-btn">ABOUT ME</button></a>
+        </div>
         <div className="floaties">
-          <StyledCoffee />
-          <StyledGlasses />
+          <StyledCoffee className="coffee"/>
+          <StyledGlasses className="glasses"/>
         </div>
-        <StyledPot />
+        <StyledPot className="pot"/>
       </div>
     )
   }
