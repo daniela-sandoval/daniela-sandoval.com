@@ -7,6 +7,7 @@
     margin: 10px;
   }
   .profile {
+    // border: 2px solid red;
     padding: 10px;
     width: 55%;
     h4, h1 {
@@ -28,10 +29,10 @@
       font-size: 15px;
     }
     .bio-text {
-      font-size: 12px;
+      font-size: 13px;
       background-color: #d6d1d14f;
       padding: 10px 20px 20px;
-      border-radius: 10px;
+      border-radius: 8px;
       margin: 20px 0;
     }
     .profile-btns {
@@ -70,8 +71,8 @@
     align-items: center;
     .image-wrapper {
       border-radius: 50%;
-      height: 30vw;
-      width: 30vw;
+      height: 29vw;
+      width: 29vw;
       overflow: hidden;
       box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       .me-pic {
@@ -85,5 +86,48 @@
     .glasses {
       margin: 25px;
     }
+  }
+}
+
+// ********** MEDIA QUERIES **********
+
+// PHONE: potrait
+@media screen and (max-width: 480px) {
+  .bio-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    // margin: 45px 25px 0 40px;
+
+    .profile {
+      width: 100%;
+      h1 {
+        font-size: 43px;
+        margin: 0;
+      }
+      .bio-text {
+        border-radius: 5px;
+        line-height: 1.4;
+        font-size: 16px;
+      }
+    }
+
+    .visual {
+      width: 100%;
+      padding: 0;
+      .image-wrapper {
+        height: 80vw;
+        width: 80vw;
+        .me-pic {
+          height: 80vw;
+        }
+      }
+      .glasses{
+        margin: 27px 0 0;
+        .svg-glasses {
+          height: 10vw;
+        }
+      }
+    }
+
   }
 }

@@ -73,3 +73,22 @@
     }
   }
 }
+
+
+// ********** MEDIA QUERIES **********
+
+// PHONE: potrait
+@media screen and (max-width: 480px) {
+  .stack-container {
+    .stack-wrapper {
+      flex-direction: column;
+      align-items: center;
+      .front, .back, .tools {
+        width: 90%;
+        .top-div {
+          padding: 14px;
+        }
+      }
+    }
+  }
+}

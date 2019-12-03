@@ -19,7 +19,7 @@ class About extends Component {
     return (
       <div className="about-page">
         <a href="/">
-          <StyledLogo class="logo"/>
+          <StyledLogo className="logo"/>
         </a>
         <Bio />
         <hr></hr>

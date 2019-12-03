@@ -36,9 +36,9 @@ class Bio extends Component {
           <h4>full stack software developer</h4>
           <h4 className="sub-line">brooklyn, ny</h4>
           <div className="bio-text">
-            <p><span role="img" aria-label="cat">🐈</span> Daniela is currently leveling up her coding skills or taking a break to play with her cats. After graduating from St. John's University, her love for digital media led her down the rabbit hole of web development. With the help of the Flatiron School and a loving cohort, Daniela is proud to call herself a Software Developer. She is actively pursuing new opportunities to level up her coding skills as she commutes all over NYC. As a developer, she hopes to continue learning, but also help others to love code! </p>
-            <p><span role="img" aria-label="cat">🐈</span> Her first steps with coding actually began by trying to insert music players and scrolling through hundreds of different Tumblr themes. It was fun connecting the different combination of words with what was appearing on the browser. Now, opening up developer tools has become second nature when coming across a site that sparks her interest. Becoming a maker of digital spaces leads Daniela into creating applications that are not only unique experiences, but are also functional. Daniela loves interacting with others especially when collaborating on projects because new prospectives open doors to new possibilities.</p>
-            <p><span role="img" aria-label="cat">🐈</span> When she's not refactoring code, Daniela is the ultimate cat mom. She loves showing off her two cats Mochi and Lychee. On her spare time, you can find her playing ukulele, watching Great British Bake Off, fighting in Dungeons and Dragons, or playing a relaxing mobile game.</p>
+            <p><span role="img" aria-label="cat">🐈</span> After graduating from St. John's University, my love for digital media led med down the rabbit hole of web development. With the help of the Flatiron School and a loving cohort, I am proud to call myself a Software Developer. I'm actively pursuing new opportunities to level up my coding skills as I commutes all over NYC. As a developer, I hope to continue learning, but also help others learn to love code! </p>
+            <p><span role="img" aria-label="cat">🐈</span> My first steps with coding actually began by trying to insert music players into the perfect Tumblr theme. Becoming a maker of digital spaces inspires me into creating applications that are not only unique experiences, but also functional. I love interacting with others especially when collaborating on projects because new prospectives open doors to new possibilities.</p>
+            <p><span role="img" aria-label="cat">🐈</span> When I'm not refactoring code, I am the ultimate cat mom. I love to show off my two cats Mochi and Lychee. On my spare time, you can find me playing ukulele, watching Great British Bake Off, fighting in Dungeons and Dragons, or playing a relaxing mobile game.</p>
           </div>
           <div className="profile-btns">
               <a href={ Resume } download>
@@ -51,7 +51,7 @@ class Bio extends Component {
             <div className="me-pic" style={{backgroundImage: `url(${daniela})`}}></div>
           </div>
           <div className="glasses">
-            <StyledGlassesBio />
+            <StyledGlassesBio className="svg-glasses"/>
           </div>
         </div>
       </div>

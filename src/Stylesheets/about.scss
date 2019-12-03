@@ -17,4 +17,24 @@
     margin: 3.2vw;
     margin-bottom: 10px;
   }
+  .logo {
+    &hover {
+      cursor: pointer;
+    }
+  }
+}
+
+// ********** MEDIA QUERIES **********
+
+// PHONE: potrait
+@media screen and (max-width: 480px) {
+  .about-page{
+    margin-top: 60px;
+    margin-bottom: 70px;
+    .logo {
+      height: 15vw;
+      top: 11px;
+      right: 26px;
+    }
+  }
 }
