@@ -9,9 +9,9 @@ import Contact from './components/contact'
 import './Stylesheets/app.scss'
 
 const showNav = {
-  backgroundColor: "rgba(101, 100, 104, 0.5)",
+  backgroundColor: "rgba(59, 59, 59, 0.7)",
   position: "fixed",
-  minHeight: "11vh",
+  minHeight: "12vh",
   width: "100vw",
   transition: "0.4s",
   zIndex: "1"

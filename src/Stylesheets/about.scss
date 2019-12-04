@@ -26,6 +26,19 @@
 
 // ********** MEDIA QUERIES **********
 
+// TABLET: potrait
+@media screen and (max-width: 992px) {
+  .about-page {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    .logo {
+      height: 8.3vw;
+      right: 32px;
+      top: 15px;
+    }
+  }
+}
+
 // PHONE: potrait
 @media screen and (max-width: 480px) {
   .about-page{

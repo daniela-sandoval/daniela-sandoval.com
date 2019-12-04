@@ -77,8 +77,8 @@
         overflow-wrap: break-word;
         text-align: center;
         .project-text {
-          background-color: #d6d1d14f;
-          border-radius: 10px;
+          background-color: #fffefe66;
+          border-radius: 5px;
           margin: 8px 0;
           font-size: 12px;
           padding: 5px;
@@ -127,8 +127,55 @@
 
 // ********** MEDIA QUERIES **********
 
-// PHONE: potrait
+// TABLET: potrait
+@media screen and (max-width: 992px) {
+  .project-container {
+    flex-direction: column;
+    margin-top: 65px;
+    margin-bottom: 70px;
+    .logo {
+      height: 8.3vw;
+      right: 32px;
+      top: 15px;
+    }
+    .project-visual {
+      position: relative;
+      margin: 10px;
+      width: 100%;
+      height: 200px;
+      flex-direction: column-reverse;
+      h1 {
+        font-size: 50px;
+      }
+      .svg-project {
+        margin: 12px 0 12px 0 ;
+      }
+    }
 
+    .project-list {
+      width: 100%;
+      margin: 0;
+      .single-project{
+        margin: 0;
+        width: 90%;
+        padding: 14px;
+        .project-pics {
+          width: 100%;
+        }
+        .information {
+          width: 100%;
+          .project-text {
+            padding: 10px;
+            font-size: 16px;
+            line-height: 1.3;
+          }
+        }
+      }
+    }
+  }
+}
+
+// PHONE: potrait
 @media screen and (max-width: 480px) {
   .project-container {
     flex-direction: column;

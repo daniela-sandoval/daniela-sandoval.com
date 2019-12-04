@@ -30,7 +30,7 @@
     }
     .bio-text {
       font-size: 13px;
-      background-color: #d6d1d14f;
+      background-color: #fffefe66;
       padding: 10px 20px 20px;
       border-radius: 8px;
       margin: 20px 0;
@@ -90,6 +90,45 @@
 }
 
 // ********** MEDIA QUERIES **********
+
+// TABLET: potrait
+@media screen and (max-width: 992px) {
+  .bio-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    .visual {
+      width: 100%;
+      padding: 0;
+      .image-wrapper {
+        height: 45vw;
+        width: 45vw;
+        .me-pic {
+          height: 45vw;
+        }
+      }
+      .glasses{
+        margin: 27px 0 0;
+        .svg-glasses {
+          height: 5vw;
+        }
+      }
+    }
+
+    .profile {
+      width: 100%;
+      h1 {
+        font-size: 43px;
+        margin: 0;
+      }
+      .bio-text {
+        border-radius: 5px;
+        line-height: 1.4;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
 
 // PHONE: potrait
 @media screen and (max-width: 480px) {

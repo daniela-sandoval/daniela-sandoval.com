@@ -37,6 +37,18 @@
 
 // ********** MEDIA QUERIES **********
 
+// TABLET: potrait
+@media screen and (max-width: 992px) {
+  .social-container {
+    .socials{
+      .icons {
+        height: 45px;
+        width: 45px;
+      }
+    }
+  }
+}
+
 // Phone: portrait
 @media screen and (max-width: 320px) {
   .social-container {

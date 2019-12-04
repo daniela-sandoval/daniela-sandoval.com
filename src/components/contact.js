@@ -21,11 +21,11 @@ const StyledCatContact = styled(Cat) `
   animation: ${float} 2s ease-in-out infinite;
 `
 const StyledLogo = styled(Logo) `
-position: fixed
-height: 5vw;
-right: 36px;
-top: 10px;
-z-index: 10;
+  position: fixed
+  height: 5vw;
+  right: 36px;
+  top: 10px;
+  z-index: 10;
 `
 
 class Contact extends Component {

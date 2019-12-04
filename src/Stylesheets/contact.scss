@@ -35,7 +35,7 @@
 
   p {
     font-family: "Comfortaa";
-    background-color: #d6d1d14f;
+    background-color: #fffefe66;
     border-radius: 5px;
     font-size: 15px;
     padding: 7px;
@@ -44,10 +44,45 @@
 }
 
 // ********** MEDIA QUERIES **********
+// TABLET: potrait
+@media screen and (max-width: 992px) {
+  .contact-wrapper {
+    justify-content: flex-start;
+    margin-top: 24vh;
+    .logo {
+      height: 8.3vw;
+      right: 32px;
+      top: 15px;
+    }
+
+    .contact-visual {
+      .svg-cat {
+        height: 32vw;
+        margin: 12px;
+      }
+    }
+
+    hr {
+      width: 60%;
+    }
+
+    .contact-info {
+      h1 {
+        font-size: 50px;
+      }
+      h4 {
+        font-size: 23px;
+      }
+    }
+
+    p {
+      font-size: 23px;
+      padding: 10px;
+    }
+  }
+}
 
 // PHONE: potrait
-
-
 @media screen and (max-width: 480px) {
   .contact-wrapper {
     justify-content: flex-start;
@@ -77,9 +112,9 @@
         font-size: 13px;
       }
     }
+
     p {
       font-size: 12px;
     }
-
   }
 }

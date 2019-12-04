@@ -56,12 +56,50 @@
 
 // ********** MEDIA QUERIES **********
 
+// TABLET: potrait
+@media screen and (max-width: 992px) {
+  .splash-page {
+
+    .splash-info {
+      .name {
+        height: 9vw;
+      }
+      .sub-name {
+        height: 2.5vw;
+      }
+    }
+
+    .floaties {
+      margin: 35px;
+      .laptop {
+        height: 16vw;
+      }
+      .cat {
+        height: 16vw;
+      }
+      .coffee {
+        height: 8vw;
+      }
+      .glasses {
+        height: 6.5vw;
+      }
+      .laptop, .cat, .coffee, .glasses {
+        margin: 0 5px 0 5px;
+      }
+    }
+
+    .pot {
+      height: 17vw;
+    }
+
+  }
+}
+
 // PHONE: potrait
-
-
 @media screen and (max-width: 480px) {
   .splash-page {
     margin-bottom: 40px;
+
     .splash-info {
       .name {
         height: 11vw;

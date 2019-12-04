@@ -9,9 +9,10 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #787a81;
+  // background: #787a81;
+  background: #aaaaaa;
   border-radius: 5px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 /* Color/shape of burger icon bars on hover*/
@@ -98,6 +99,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 
 // ********** MEDIA QUERIES **********
+
+// TABLET: potrait
+@media screen and (max-width: 992px) {
+  .bm-item {
+    font-size: 1.7em;
+  }
+}
 
 // Phone: portrait
 @media screen and (max-width: 360px) {

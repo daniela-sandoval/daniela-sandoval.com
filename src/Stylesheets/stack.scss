@@ -77,18 +77,62 @@
 
 // ********** MEDIA QUERIES **********
 
+// TABLET: potrait
+@media screen and (max-width: 992px) {
+  .stack-container {
+    width: 100%;
+    .stack-wrapper {
+      .front, .back, .tools {
+        .top-div {
+          font-size:30px;
+        }
+
+        .bottom-div {
+          .stack-list {
+            .column {
+              .language {
+                margin: 16px;
+                font-size: 14px;
+                .stack-pic {
+                  height: 55px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // PHONE: potrait
 @media screen and (max-width: 480px) {
   .stack-container {
+
     .stack-wrapper {
       flex-direction: column;
       align-items: center;
+
       .front, .back, .tools {
         width: 90%;
         .top-div {
           padding: 14px;
         }
+        .bottom-div {
+          .stack-list {
+            .column {
+              .language {
+                margin: 15px;
+                font-size: 15px;
+                .stack-pic {
+                  height: 58px;
+                }
+              }
+            }
+          }
+        }
       }
+
     }
   }
 }
