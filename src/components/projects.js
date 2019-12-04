@@ -30,7 +30,7 @@ const float2 = keyframes `
 
 const StyledLaptop = styled(Laptop) `
   margin: 40px;
-  height: 22vw;
+  height: 20vw;
   animation: ${float2} 3s ease-in-out infinite;
 `
 
