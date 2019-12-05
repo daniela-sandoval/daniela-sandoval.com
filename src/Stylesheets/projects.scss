@@ -146,11 +146,12 @@
     .project-visual {
       position: relative;
       width: 100%;
-      height: 200px;
+      height: 150px;
       margin: 0;
       flex-direction: column-reverse;
       h1 {
-        font-size: 40px;
+        font-size: 30px;
+        margin-bottom: 5px;
       }
       .svg-project {
         height: 18vw;
@@ -195,15 +196,17 @@
     }
     .project-visual {
       position: relative;
-      margin: 10px;
       width: 100%;
-      height: 200px;
+      height: 150px;
       flex-direction: column-reverse;
       h1 {
-        font-size: 50px;
+        font-size: 40px;
+        margin-bottom: 5px;
+        margin-top: 2px;
       }
       .svg-project {
-        margin: 12px 0 12px 0 ;
+        margin-top: 5px;
+        margin-bottom: 5px;
       }
     }
 
@@ -213,7 +216,6 @@
       .single-project{
         margin: 0;
         width: 90%;
-        padding: 14px;
         .project-pics {
           width: 100%;
         }

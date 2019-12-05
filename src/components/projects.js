@@ -17,13 +17,13 @@ z-index: 10;
 
 const float2 = keyframes `
   0% {
-    transform: translatey(10px);
+    transform: translatey(9px);
   }
   50% {
-    transform: translatey(-10px)
+    transform: translatey(-9px)
   }
   100% {
-    transform: translatey(10px)
+    transform: translatey(9px)
   }
 `
 
