@@ -10,7 +10,7 @@ import RailsIcon from "../img/Ruby_On_Rails_Logo.png"
 import SqlIcon from "../img/sql-logo.png"
 import PostIcon from "../img/elephant.png"
 import GitIcon from "../img/Git_icon.svg.png"
-import HubIcon from "../img/elephant.png"
+import HubIcon from "../img/github.png"
 import HeroIcon from "../img/heroku-logo.png"
 import IllIcon from "../img/illustrator.png"
 import '../Stylesheets/stack.scss'
