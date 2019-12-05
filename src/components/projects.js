@@ -77,7 +77,6 @@ class Projects extends Component {
               <div className="btns">
                 <a href="https://github.com/daniela-sandoval/bodega-app-frontend" target="_blank" rel="noopener noreferrer"><button>front</button></a>
                 <a href="https://github.com/daniela-sandoval/bodega-app-backend" target="_blank" rel="noopener noreferrer"><button>back</button></a>
-                <a href="https://youtu.be/3J0I3uoayso" target="_blank" rel="noopener noreferrer"><button>demo</button></a>
               </div>
             </div>
           </div>
