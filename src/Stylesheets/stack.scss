@@ -24,12 +24,19 @@
       border-radius: 10px;
       background-size: 200% auto;
       background-image: linear-gradient(#ffffff9c, #ffffff9c), linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
+      background-image: -webkit-linear-gradient(#ffffff9c, #ffffff9c), -webkit-linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
+      background-image: -moz-linear-gradient(#ffffff9c, #ffffff9c), -moz-linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
+      background-image: -o-(#ffffff9c, #ffffff9c), -o-(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
       background-origin: border-box;
       background-clip: content-box, border-box;
       box-shadow: 6px 10px 17px 0px #000000ab;
       letter-spacing: 2px;
       .top-div {
         background-image: linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
+        background-image: -webkit-linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
+        background-image: -moz-linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
+        background-image: -o-(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
+        background-image: -webkit-gradient(linear, to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
         background-size: 200% auto;
         height: 15%;
         font-family: "Comfortaa";

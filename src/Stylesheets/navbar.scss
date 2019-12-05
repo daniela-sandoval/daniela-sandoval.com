@@ -59,6 +59,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-size: 1.1em;
   background-size: 200% auto;
   background-image: linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
+  background-image: -webkit-linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
+  background-image: -moz-linear-gradient(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
+  background-image: -o-(to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
+  background-image: -webkit-gradient(linear, to right, #26bd9f 0%, #8b7ae2 51%, #26bd9f 100%);
 }
 
 /* Morph shape necessary with bubble or elastic */
