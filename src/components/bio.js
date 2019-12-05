@@ -38,7 +38,7 @@ class Bio extends Component {
           <div className="bio-text">
             <p><span role="img" aria-label="cat">🐈</span> After graduating from St. John's University, my love for digital media led me down the rabbit hole of web development. With the help of the Flatiron School and a loving cohort, I'm proud to call myself a Software Developer. I'm actively pursuing new opportunities to level up my coding skills as I commute all over NYC. As a developer, I hope to continue learning, but also help others learn to love code! </p>
             <p><span role="img" aria-label="cat">🐈</span> My first steps with coding actually began by trying to insert music players onto Tumblr themes. Today, I'm a maker of digital spaces inspired to create applications that are not only unique experiences, but also functional. I love interacting and collaborating with others because new prospectives open doors to new possibilities.</p>
-            <p><span role="img" aria-label="cat">🐈</span> When I'm not refactoring code, I am the ultimate cat mom. I love to show off my two cats Mochi and Lychee. On my spare time, you can find me playing ukulele, watching Great British Bake Off, fighting in an owl bear in Dungeons and Dragons, or playing a relaxing mobile game.</p>
+            <p><span role="img" aria-label="cat">🐈</span> When I'm not refactoring code, I am the ultimate cat mom. I love to show off my two cats Mochi and Lychee. On my spare time, you can find me playing ukulele, watching Great British Bake Off, fighting an owl bear in Dungeons and Dragons, or playing a relaxing mobile game.</p>
           </div>
           <div className="profile-btns">
               <a href={ Resume } download>
