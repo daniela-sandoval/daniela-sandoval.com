@@ -1,4 +1,6 @@
-html, body, #root {
+html,
+body,
+#root {
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -7,7 +9,6 @@ html, body, #root {
   .portfolio {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     width: 100vw;
     position: absolute;
   }
