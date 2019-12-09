@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.60db12d0.chunk.css",
+    "main.css": "/static/css/main.d22608dd.chunk.css",
     "main.js": "/static/js/main.69b89ce7.chunk.js",
     "main.js.map": "/static/js/main.69b89ce7.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.7302273d.js",
@@ -8,9 +8,9 @@
     "static/js/2.b35338ab.chunk.js": "/static/js/2.b35338ab.chunk.js",
     "static/js/2.b35338ab.chunk.js.map": "/static/js/2.b35338ab.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e5c3bb472e2eeb9fdb0563cc9eff8b23.js": "/precache-manifest.e5c3bb472e2eeb9fdb0563cc9eff8b23.js",
+    "precache-manifest.2f12c26c36aa75c528a7ca24b380d94c.js": "/precache-manifest.2f12c26c36aa75c528a7ca24b380d94c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.60db12d0.chunk.css.map": "/static/css/main.60db12d0.chunk.css.map",
+    "static/css/main.d22608dd.chunk.css.map": "/static/css/main.d22608dd.chunk.css.map",
     "static/media/Daniela-Sandoval-Resume-2019.pdf": "/static/media/Daniela-Sandoval-Resume-2019.06f7fb33.pdf",
     "static/media/Git_icon.svg.png": "/static/media/Git_icon.svg.ee1369e9.png",
     "static/media/Ruby_On_Rails_Logo.png": "/static/media/Ruby_On_Rails_Logo.1ecd21a8.png",
