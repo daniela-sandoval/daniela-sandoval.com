@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   margin: 5.5vw;
+  max-height: 3653.59px;
+  min-height: 1729.97px;
   #b660fb60-2738-45cb-bcf5-2f531dcaa282 {
     fill: #b23a6c;
   }
@@ -35,6 +37,10 @@
   .about-page {
     margin-top: 70px;
     margin-bottom: 80px;
+    height: 3653.59px;
+    min-height: 3653.59px;
+    width: 333px;
+    min-width: 333px;
     .logo {
       height: 15vw;
       right: 32px;
@@ -46,8 +52,7 @@
 // PHONE: potrait
 @media screen and (max-width: 480px) {
   .about-page{
-    margin-top: 60px;
-    margin-bottom: 70px;
+    margin: 60px 20px 70px 20px;
     .logo {
       height: 15vw;
       top: 11px;

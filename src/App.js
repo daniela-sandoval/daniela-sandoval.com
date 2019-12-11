@@ -7,6 +7,8 @@ import Splash from './components/splash'
 import Projects from './components/projects'
 import Contact from './components/contact'
 import './Stylesheets/app.scss'
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
 
 const showNav = {
   backgroundColor: "rgba(59, 59, 59, 0.7)",

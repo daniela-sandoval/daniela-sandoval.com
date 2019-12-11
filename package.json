@@ -12,12 +12,13 @@
     "radium": "^0.26.0",
     "react": "^16.9.0",
     "react-animations": "^1.0.0",
+    "react-app-polyfill": "^1.0.5",
     "react-burger-menu": "^2.6.11",
     "react-dom": "^16.9.0",
     "react-fontawesome": "^1.6.1",
     "react-responsive-carousel": "^3.1.50",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
+    "react-scripts": "^3.3.0",
     "sass": "^1.22.12",
     "styled-components": "^4.4.0"
   },
@@ -36,12 +37,14 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "ie 11"
     ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      "ie 11"
     ]
   }
 }
