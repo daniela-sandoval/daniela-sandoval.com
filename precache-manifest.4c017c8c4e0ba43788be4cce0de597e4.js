@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f3da3b9d623f043535c00686cbea0a0",
+    "revision": "4cad1aced424b20969f07b43c5d4f196",
     "url": "/index.html"
   },
   {
-    "revision": "676d302911ff91d3963c",
+    "revision": "a009393bed80a07eeba0",
     "url": "/static/css/main.04f52f9a.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.6c179387.chunk.js.LICENSE"
   },
   {
-    "revision": "676d302911ff91d3963c",
-    "url": "/static/js/main.91734866.chunk.js"
+    "revision": "a009393bed80a07eeba0",
+    "url": "/static/js/main.fa10d646.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
     "url": "/static/js/runtime-main.170f8412.js"
   },
   {
-    "revision": "06f7fb33c2eac3f0cf9a5b11abf1a144",
-    "url": "/static/media/Daniela-Sandoval-Resume-2019.06f7fb33.pdf"
+    "revision": "c19f612228b2743d5b89f8cad499ff11",
+    "url": "/static/media/Daniela-Sandoval-Resume-19.c19f6122.pdf"
   },
   {
     "revision": "ee1369e96e441ad0119530d10264b8b4",
