@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import daniela from '../img/daniela3.png'
 import styled, { keyframes } from 'styled-components'
 import { ReactComponent as Glasses } from '../img/glasses.svg'
-import Resume from '../img/Daniela-Sandoval-Resume-2019.pdf'
+import Resume from '../img/Daniela-Sandoval-Resume-19.pdf'
 import '../Stylesheets/bio.scss'
 
 const float = keyframes `
